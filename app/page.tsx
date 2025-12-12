@@ -314,7 +314,7 @@ export default function WeddingWebsite() {
             <Card className="p-8 md:p-12 hover:shadow-xl transition-shadow duration-300 bg-background border-border/50">
               <Calendar className="w-12 h-12 text-primary mb-6" />
               <h3 className="font-serif text-3xl text-primary mb-4">Thời Gian</h3>
-              <p className="font-san-serif text-lg text-foreground/80 leading-relaxed">
+              <p className="font-serif text-lg text-foreground/80 leading-relaxed">
                 Thứ Tư, 31 tháng 12, 2025
                 <br />
                 Lễ cưới: 14:00
@@ -343,7 +343,7 @@ export default function WeddingWebsite() {
                 <br />
                 Gợi ý: Đầm dạ hội và Vest
                 <br />
-                Màu chủ đạo: Hồng phấn & Xanh dương nhạt
+                Màu chủ đạo: Đen và trắng
               </p>
             </Card>
 
@@ -556,7 +556,7 @@ export default function WeddingWebsite() {
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="font-serif text-5xl md:text-6xl text-primary mb-8 text-balance">Xác Nhận Tham Dự</h2>
             <p className="font-serif text-lg text-foreground/80 mb-12 leading-relaxed text-pretty">
-              Vui lòng xác nhận sự tham dự của bạn trước ngày 1 tháng 8, 2025 để chúng tôi có thể chuẩn bị chu đáo nhất.
+              Vui lòng xác nhận sự tham dự của bạn trước ngày 25 tháng 12, 2025 để chúng tôi có thể chuẩn bị chu đáo nhất.
             </p>
             <Card className="p-8 md:p-12 bg-background border-border/50">
               <form onSubmit={handleConfirmSubmit} className="space-y-6">
